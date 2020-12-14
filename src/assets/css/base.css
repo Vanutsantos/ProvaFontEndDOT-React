@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.slick-list {
+  width: 100%;
+}
+
+ul.slick-dots {
+  display: flex!important;
+  justify-content: center;
+  background: rgb(69 69 69 / 0.7);
+  margin-top: -74px;
+  position: relative;
+  height: 70px;
+  align-items: center;
+}
+
+ul.slick-dots li {
+  display: flex;
+}
+
+ul.slick-dots li button {
+  color: transparent;
+  margin: 5px;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 7px solid #343434;
+  background: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+ul.slick-dots li.slick-active button {
+  background: #546130;
+  border-color: #fff;
+}
+
+html{
+  scroll-behavior: smooth;
+}
