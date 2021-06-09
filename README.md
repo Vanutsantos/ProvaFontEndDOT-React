@@ -1,6 +1,6 @@
 <!-- @format -->
 
-##Desafio técnico web - DOt digital Group - FrontEnd
+##Desafio técnico web - Dot digital Group - FrontEnd
 
 Esta é uma aplicação feita com [React.js](https://pt-br.reactjs.org/ "react.js"), utilizando bibliotecas comom axios, styled-components, node-sass, etc.
 
